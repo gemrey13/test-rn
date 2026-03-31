@@ -56,7 +56,7 @@
     }
 
     .tabs-active {
-        @apply bg-gray-500
+        @apply bg-accent
     }
 
     .tabs-glyph {
@@ -103,5 +103,48 @@
         @apply text-xl font-sans-medium text-white;
     }
 
+    .list-head {
+        @apply flex-row items-center justify-between my-6;
+    }
+
+    .list-title {
+        @apply text-xl font-sans-semibold;
+    }
+
+    .list-action{
+        @apply rounded-2xl border px-4 py-1;
+    }
+
+    .list-action-text {
+        @apply text-base
+    }
+
+    .upcoming-card {
+        @apply rounded-2xl border px-3 py-4.5 w-40 gap-1 mr-3;
+    }
+
+    .upcoming-row {
+        @apply flex-row items-center justify-center gap-3;
+    }
+
+    .upcoming-icon {
+        @apply size-12 bg-accent/20 rounded-2xl ;
+    }
+
+    .upcoming-price {
+        @apply font-sans-semibold
+    }
+
+    .upcoming-meta {
+        @apply font-sans-light text-xs
+    }
+
+    .upcoming-name {
+        @apply font-sans-bold
+    }
+
+    .home-empty-state {
+        @apply text-sm my-4
+    }
 
 }
