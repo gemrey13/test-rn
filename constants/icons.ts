@@ -8,6 +8,7 @@ import notion from "@/assets/icons/notion.png"
 import adobe from "@/assets/icons/adobe.png"
 import canva from "@/assets/icons/canva.jpeg"
 import github from "@/assets/icons/github.png"
+import add from "@/assets/icons/add.png"
 
 export const icons = {
     home,
@@ -20,6 +21,7 @@ export const icons = {
     adobe,
     canva,
     github,
+    add,
 }
 
 export type IconKey = keyof typeof icons;
