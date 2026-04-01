@@ -147,4 +147,36 @@
         @apply text-sm my-4
     }
 
+    .sub-card {
+        @apply py-6 px-4 border rounded-xl border-border
+    }
+
+    .sub-head {
+        @apply flex-row gap-6
+    }
+
+    .sub-main {
+        @apply flex-row gap-4 align-middle items-center
+    }
+
+    .sub-title {
+        @apply font-sans-bold
+    }
+
+    .sub-icon {
+        @apply size-10
+    }
+
+    .sub-price-box {
+        @apply gap-1.5
+    }
+
+    .sub-price {
+        @apply font-sans-semibold
+    }
+
+    .sub-billing {
+        @apply text-sm font-sans-light
+    }
+
 }
